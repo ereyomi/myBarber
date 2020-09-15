@@ -98,9 +98,10 @@ $primary: #ce9c6b;
 			@include transition(.3s);
 		}
 		span {
-			font-size: 30px;
+			font-size: 30px !important;
 			color: $primary;
       z-index: 1;
+      margin-left: 0px !important;
 		}
 	}
 	h3{
@@ -121,5 +122,14 @@ $primary: #ce9c6b;
 			}
 		}
 	}
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
 }
 </style>
