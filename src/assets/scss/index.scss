@@ -130,9 +130,14 @@ p.flip{
         font-size: 30px;
         font-weight: 400;
         position: relative; 
+        color: $white;
         span {
-            color: #ce9c6b; 
+            color: $primary; 
         }
+    }
+    p {
+        color: $white;
+        opacity: 0.5;
     }
 }
  

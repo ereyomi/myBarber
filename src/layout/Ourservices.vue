@@ -110,6 +110,10 @@ $primary: #ce9c6b;
 		color: $white;
 	}
 	.media-body{
+    p {
+      color: $white;
+      opacity: 0.5;
+    }
 	}
 	&:hover{
 		.icon{
